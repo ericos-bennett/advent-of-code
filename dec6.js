@@ -4,8 +4,6 @@
 const fs = require("fs");
 const data = fs.readFileSync('dec6-input.txt', 'utf8');
 
-// console.log(data);
-
 // Create an array from the string, splitting at double newlines (distinguishing travel groups)
 const strArray = data.split('\n\n');
 
